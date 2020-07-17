@@ -1,8 +1,7 @@
-a = input()
-b = a.split(' ')
-sum_ = 0
+from adder import add_p
+from input_iter import str_input
 
-for i in b:
-    sum_ += int(i)
+b = str_input()
+target =   add_p.addfunc(b)
 
-print(sum_)
+print(target)
