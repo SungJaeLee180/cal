@@ -1,7 +1,7 @@
 def addfunc(iter):
     sum_ = 0
     for i in iter:
-        sum_ += i
+        sum_ += int(i)
     return sum_
 
 if __name__ == '__main__':
