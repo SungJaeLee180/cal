@@ -6,5 +6,5 @@ def addfunc(iter):
 
 if __name__ == '__main__':
     print('test start')
-    assert(addfunc([2, 4, 5] == 11))
+    assert(addfunc([2, 4, 5]) == 11)
     print('pass')
